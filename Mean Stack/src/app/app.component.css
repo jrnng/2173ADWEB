@@ -1,0 +1,103 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* app.component.css */
+
+/* Container for each book */
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Container for each book item */
+.book-item {
+  width: 48%; /* Adjust as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid burlywood;
+  box-shadow: 1px 2px 5px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+/* Title styling */
+.book-title {
+  font-weight: bold;
+  color: #582f0e;
+  margin-top: 5px;
+}
+
+/* Description styling */
+.book-description {
+  color: black;
+  margin-top: 5px;
+}
+
+/* Price styling */
+.book-price {
+  color: black;
+  margin-top: 5px;
+}
+
+/* Button styling */
+.delete-button {
+  background-color: #b08968;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #583101;
+}
+
+/* app.component.css */
+
+/* Container for input fields and button */
+.form-container {
+  margin-bottom: 20px;
+}
+
+/* app.component.css */
+
+/* Container for input fields and button */
+.form-container {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+/* Input field styling */
+.input-field {
+  flex: 1; /* Take up remaining space */
+  margin-right: 10px; /* Add some spacing between input fields */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #b08968;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #583101;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
